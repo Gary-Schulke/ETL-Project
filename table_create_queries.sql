@@ -2,7 +2,7 @@
 
 -- DROP DATABASE "ETL_Project";
 
-CREATE DATABASE "ETL_Project"
+CREATE DATABASE "city_transit_db"
     WITH 
     OWNER = postgres
     ENCODING = 'UTF8'
@@ -20,7 +20,7 @@ country VARCHAR
 
 CREATE TABLE tracks (
 city_id INT PRIMARY KEY,
-length INT
+length INTx
 );
 
 
